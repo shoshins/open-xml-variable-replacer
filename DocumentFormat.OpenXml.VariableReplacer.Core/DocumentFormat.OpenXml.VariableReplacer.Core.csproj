@@ -10,7 +10,7 @@
     <Description>Simple and lightweight replacer for varibles in OpenXml (DOCX MS Word).
 Replace all your variables (like {$MyVariable$}) in MS Word by simple dictionary.</Description>
     <PackageProjectUrl>https://github.com/shoshins/open-xml-variable-replacer</PackageProjectUrl>
-    <PackageLicenseUrl>http://shoshins.me/</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/shoshins/open-xml-variable-replacer/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>openxml, office, variable</PackageTags>
     <Copyright>Sergey Shoshin (C) 2017</Copyright>
