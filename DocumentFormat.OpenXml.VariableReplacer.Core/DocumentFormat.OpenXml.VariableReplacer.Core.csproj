@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageId>DocumentFormat.OpenXml.VariableReplacer</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Sergey Shoshin</Authors>
+    <Company>Sergey Shoshin</Company>
+    <Product>DocumentFormat.OpenXml.VariableReplacer</Product>
+    <Description>Simple and lightweight replacer for varibles in OpenXml (DOCX MS Word).
+Replace all your variables (like {$MyVariable$}) in MS Word by simple dictionary.</Description>
+    <PackageProjectUrl>http://shoshins.me/</PackageProjectUrl>
+    <PackageLicenseUrl>http://shoshins.me/</PackageLicenseUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>openxml, office, variable</PackageTags>
+    <Copyright>Sergey Shoshin (C) 2017</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>MyPackages.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.7.2" />
+  </ItemGroup>
+
+</Project>
